@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button";
+// import { DataGrid } from '@/components/data-grid';
 
-export default function Home() {
+export default function DashboardPage() {
   return (
-    <>
-      <h1 className="">hello world</h1>
-      <Button variant="destructive">Testando</Button>
-    </>
-  )
+    <div className="max-w-screen-2xl mx-auto w-full pb-10 -mt-24">
+      {/* <DataGrid /> */}
+    </div>
+  );
 }
