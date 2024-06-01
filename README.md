@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Finance 
 
-## Getting Started
+![finance-wr](https://github.com/WesleyR10/Finance-Wr/assets/115756312/617df601-9780-475e-ad8d-23826626cf9f)
 
-First, run the development server:
+Finance-WR é uma aplicação web moderna e intuitiva para gerenciamento financeiro. Com uma interface de usuário limpa e fácil de usar, o aplicativo permite que os usuários acompanhem suas transações financeiras de maneira eficiente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
+* **Filtro de Data:** Os usuários podem filtrar transações por datas específicas para uma análise mais detalhada.
+* **Gerenciamento de Contas:** Os usuários podem adicionar e gerenciar várias contas.
+* **Resumo Financeiro:** O aplicativo fornece um resumo financeiro para ajudar os usuários a entenderem melhor sua situação financeira.
+* **Calendário Integrado:** Um calendário integrado para facilitar a visualização e o rastreamento de transações.
+* **Reset de Dados:** Os usuários podem redefinir seus dados a qualquer momento.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Visual
+O aplicativo possui uma interface de usuário limpa e moderna, com um design responsivo que se adapta a qualquer tamanho de tela. A interface é intuitiva e fácil de navegar, tornando o gerenciamento financeiro uma tarefa simples e sem complicações.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
+O aplicativo foi construído usando várias tecnologias modernas para garantir uma experiência de usuário de alta qualidade:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Next.js: Uma estrutura React para desenvolvimento de aplicações web modernas.
+* TypeScript: Um superconjunto de JavaScript que adiciona tipagem estática e outros recursos.
+* date-fns: Uma biblioteca moderna de manipulação de datas para JavaScript.
+* React Day Picker: Uma biblioteca flexível para selecionar datas no React.
+* Lucide React: Uma coleção de ícones bem projetados para React.
+* Clerk: Uma solução completa para autenticação de usuários e gerenciamento de sessões.
+* Zod Validator: Uma biblioteca de validação de dados para JavaScript e TypeScript.
+* React Hook Form: Uma biblioteca para criar formulários eficientes, flexíveis e extensíveis em React.
+* Radix UI: Uma coleção de componentes de UI primitivos para construir interfaces de usuário de alta qualidade.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**HonoJs, Zustand, Drizzle-ORM, tanstack/react-query entre outras .....**
