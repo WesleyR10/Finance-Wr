@@ -4,7 +4,8 @@ import { handle } from 'hono/vercel';
 import accounts from './accounts';
 import categories from './categories';
 import transactions from './transactions';
-// import summary from './summary';
+import summary from './summary';
+import plaid from './plaid';
 
 export const runtime = 'edge';
 
@@ -15,7 +16,8 @@ app.get("hello", (ctx) => {
 })
 
 const routes = app
-//   .route('/summary', summary)
+    .route('/plaid', plaid)
+    .route('/summary', summary)
     .route('/accounts', accounts)
     .route('/categories', categories)
     .route('/transactions', transactions);
